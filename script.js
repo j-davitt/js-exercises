@@ -52,3 +52,14 @@ function eightBall(){
     }
     console.log(eightBall);
 }
+
+
+// Random student name 
+
+function randomStudent(){
+    const student = ['Joe', 'Benjamin', 'Cheryl', 'Adrienne', 'Ahmed', 'Brandon', 'Brenden', 'Brennan', 'David', 'Dennis', 'Dominick', 'Drew', 'Dutch', 'Eli', 'Jacob', 'Jeremy', 'Jordan', 'Jose', 'Ken', 'Liam', 'Marco', 'Marcus', 'Marlon', 'Melanie', 'Mike', 'Rafael', 'Steve', 'Tre', 'Ty', 'Tyler', 'Yaz', 'Yurii'];
+
+    let random = Math.floor(Math.random() * student.length);
+
+    console.log(student[random]);
+}
